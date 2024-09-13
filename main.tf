@@ -16,7 +16,7 @@ module "ec2_instance" {
   name = "t1"
 
   instance_type          = "t3.micro"
-  key_name               = "mykey"
+  key_name               = "newkey"
   monitoring             = true
   vpc_security_group_ids = ["sg-04165dec37a117b3d"]
   subnet_id              = "subnet-0aa5c2bceb3f1fd80"
